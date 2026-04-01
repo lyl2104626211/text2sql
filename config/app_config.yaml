@@ -42,5 +42,5 @@ es:
 
 llm:
   model_name: MiniMax-M2.7
-  api_key: sk-cp-bvJKT6ibVPqc0e9GpQHU2F3wfhEX6zK-94szX1YyU0yTU8_IIPoo7JfBXRUnt61eP5MaIwhNccd-X3k3UtnVtN0zW_L22qgPJxy5swTQjBdw5ynSezak-fY
+  api_key: self_api
   base_url: https://api.minimaxi.com/v1
