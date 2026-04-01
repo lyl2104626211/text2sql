@@ -1,0 +1,280 @@
+2026-03-26 16:43:42.015 | INFO     | app.services.meta_knowledge_service:build:200 - 配置文件加载完成
+2026-03-26 16:43:42.306 | INFO     | app.services.meta_knowledge_service:build:205 - 将表信息和字段信息保存到数据库
+2026-03-26 16:43:45.114 | INFO     | app.services.meta_knowledge_service:build:208 - 为字段信息简历向量索引
+2026-03-26 16:43:45.503 | INFO     | app.services.meta_knowledge_service:build:211 - 为字段的取值创建全文索引
+2026-03-26 16:43:45.523 | INFO     | app.services.meta_knowledge_service:build:216 - 将指标信息保存到数据库
+2026-03-26 16:45:53.850 | INFO     | app.services.meta_knowledge_service:build:201 - 配置文件加载完成
+2026-03-26 16:45:54.148 | INFO     | app.services.meta_knowledge_service:build:206 - 将表信息和字段信息保存到数据库
+2026-03-26 16:45:57.210 | INFO     | app.services.meta_knowledge_service:build:209 - 为字段信息简历向量索引
+2026-03-26 16:45:57.902 | INFO     | app.services.meta_knowledge_service:build:212 - 为字段的取值创建全文索引
+2026-03-26 16:45:57.923 | INFO     | app.services.meta_knowledge_service:build:217 - 将指标信息保存到数据库
+2026-03-26 16:47:46.267 | INFO     | app.services.meta_knowledge_service:build:201 - 配置文件加载完成
+2026-03-26 16:48:07.243 | INFO     | app.services.meta_knowledge_service:build:201 - 配置文件加载完成
+2026-03-26 16:48:07.519 | INFO     | app.services.meta_knowledge_service:build:206 - 将表信息和字段信息保存到数据库
+2026-03-26 16:48:10.514 | INFO     | app.services.meta_knowledge_service:build:209 - 为字段信息简历向量索引
+2026-03-26 16:48:11.133 | INFO     | app.services.meta_knowledge_service:build:212 - 为字段的取值创建全文索引
+2026-03-26 16:48:11.156 | INFO     | app.services.meta_knowledge_service:build:217 - 将指标信息保存到数据库
+2026-03-26 16:48:11.640 | INFO     | app.services.meta_knowledge_service:build:220 - 为指标信息创建向量索引
+2026-03-31 21:32:44.906 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:28 - 抽取关键词：['华北地区', '销售额', '查华北地区销售额']
+2026-03-31 21:32:53.860 | INFO     | app.agent.nodes.recall_metric:recall_metric:30 - 扩充后的指标关键词：['交易额', '营业额度', '查华北地区销售额', '销售收入', '华北地区', '成交额', '总销售额', '销售总额', 'GMV', '销售额', '销售金额', '销售业绩']
+2026-03-31 21:32:56.501 | INFO     | app.agent.nodes.recall_metric:recall_metric:39 - 搜索到指标信息：['GMV', 'AOV']
+2026-03-31 21:32:59.152 | INFO     | app.agent.nodes.recall_value:recall_value:26 - 扩充后的字段取值关键词：['华北地区', '销售额', '查华北地区销售额', '华北']
+2026-03-31 21:37:49.902 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:28 - 抽取关键词：['销售额', '查华北地区销售额', '华北地区']
+2026-03-31 21:37:55.726 | INFO     | app.agent.nodes.recall_column:recall_column:28 - 扩充后的字段关键词：['销售额', '查华北地区销售额', '销售区域', '华北地区']
+2026-03-31 21:37:57.489 | INFO     | app.agent.nodes.recall_metric:recall_metric:30 - 扩充后的指标关键词：['营收', '查华北地区销售额', '销售额', '交易额', 'GMV', '华北地区', '成交额', '销售收入']
+2026-03-31 21:37:57.922 | INFO     | app.agent.nodes.recall_column:recall_column:37 - 搜索的字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_product.category']
+2026-03-31 21:37:58.087 | INFO     | app.agent.nodes.recall_metric:recall_metric:39 - 搜索到指标信息：['GMV', 'AOV']
+2026-03-31 21:37:59.321 | INFO     | app.agent.nodes.recall_value:recall_value:26 - 扩充后的字段取值关键词：['销售额', '查华北地区销售额', '华北地区']
+2026-03-31 21:39:43.579 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:28 - 抽取关键词：['华北地区', '查华北地区销售额', '销售额']
+2026-03-31 21:39:51.768 | INFO     | app.agent.nodes.recall_metric:recall_metric:30 - 扩充后的指标关键词：['查华北地区销售额', 'GMV', '销售总额', '销售收入', '华北地区', '交易额', '成交额', '销售金额', '营业总额', '销售额', '营收']
+2026-03-31 21:39:53.401 | INFO     | app.agent.nodes.recall_value:recall_value:26 - 扩充后的字段取值关键词：['查华北地区销售额', '销售', '华北', '华北地区', '销售额']
+2026-03-31 21:39:53.476 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 搜索的字段取值信息：['dim_region.region_name.华北']
+2026-03-31 21:39:53.911 | INFO     | app.agent.nodes.recall_metric:recall_metric:39 - 搜索到指标信息：['GMV', 'AOV']
+2026-03-31 21:39:54.447 | INFO     | app.agent.nodes.recall_column:recall_column:28 - 扩充后的字段关键词：['华北地区', '查华北地区销售额', '地区', '销售额']
+2026-03-31 21:39:54.595 | INFO     | app.agent.nodes.recall_column:recall_column:37 - 搜索的字段信息：['dim_region.region_name', 'fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.province', 'dim_region.country']
+2026-03-31 21:39:54.667 | INFO     | app.agent.nodes.filter_metric:filter_metric:19 - 原始指标信息：['GMV', 'AOV']
+2026-03-31 21:39:54.669 | INFO     | app.agent.nodes.filter_table:filter_table:19 - 原始表信息：['dim_region', 'fact_order']
+2026-03-31 21:40:00.213 | INFO     | app.agent.nodes.filter_metric:filter_metric:34 - 过滤后的指标信息：['GMV']
+2026-03-31 21:40:02.593 | INFO     | app.agent.nodes.filter_table:filter_table:38 - 过滤后的表信息：['dim_region', 'fact_order']
+2026-03-31 21:40:02.612 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:19 - 日期信息：{'date': '2026-03-31', 'weekday': 'Tuesday', 'quarter': 'Q1'}
+2026-03-31 21:40:02.612 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:20 - 数据库信息：{'dialect': 'mysql', 'version': '8.0.45'}
+2026-03-31 21:40:18.543 | INFO     | app.agent.nodes.generate_sql:generate_sql:32 - 生成的SQL：SELECT SUM(f.order_amount) AS 销售额
+FROM fact_order f
+INNER JOIN dim_region r ON f.region_id = r.region_id
+WHERE r.region_name = '华北'
+2026-03-31 21:40:18.559 | INFO     | app.agent.nodes.validate_sql:validate_sql:14 - SQL验证成功
+2026-03-31 21:40:18.565 | INFO     | app.agent.nodes.run_sql:run_sql:13 - SQL运行结果：[{'销售额': 41099.5}]
+2026-03-31 22:40:21.193 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:28 - 抽取关键词：['销售额', '查华北地区销售额', '华北地区']
+2026-03-31 22:40:30.860 | INFO     | app.agent.nodes.recall_value:recall_value:26 - 扩充后的字段取值关键词：['销售额', '查华北地区销售额', '华北地区', '华北']
+2026-03-31 22:40:30.928 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 搜索的字段取值信息：['dim_region.region_name.华北']
+2026-03-31 22:40:33.196 | INFO     | app.agent.nodes.recall_metric:recall_metric:30 - 扩充后的指标关键词：['营收', '销售金额', '销售总额', '华北地区', 'GMV', '销售额', '交易额', '营业收入', '查华北地区销售额', '成交额']
+2026-03-31 22:40:34.738 | INFO     | app.agent.nodes.recall_column:recall_column:28 - 扩充后的字段关键词：['销售额', '查华北地区销售额', '华北地区', '地区']
+2026-03-31 22:40:35.158 | INFO     | app.agent.nodes.recall_column:recall_column:37 - 搜索的字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_region.province', 'dim_region.country']
+2026-03-31 22:40:35.387 | INFO     | app.agent.nodes.recall_metric:recall_metric:39 - 搜索到指标信息：['GMV', 'AOV']
+2026-03-31 22:40:35.478 | INFO     | app.agent.nodes.filter_metric:filter_metric:19 - 原始指标信息：['GMV', 'AOV']
+2026-03-31 22:40:35.483 | INFO     | app.agent.nodes.filter_table:filter_table:19 - 原始表信息：['fact_order', 'dim_region']
+2026-03-31 22:40:42.203 | INFO     | app.agent.nodes.filter_table:filter_table:38 - 过滤后的表信息：['fact_order', 'dim_region']
+2026-03-31 22:40:43.687 | INFO     | app.agent.nodes.filter_metric:filter_metric:34 - 过滤后的指标信息：['GMV']
+2026-03-31 22:40:43.703 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:21 - 日期信息：{'date': '2026-03-31', 'weekday': 'Tuesday', 'quarter': 'Q1'}
+2026-03-31 22:40:43.703 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:22 - 数据库信息：{'dialect': 'mysql', 'version': '8.0.45'}
+2026-03-31 22:40:53.920 | INFO     | app.agent.nodes.generate_sql:generate_sql:32 - 生成的SQL：SELECT SUM(fact_order.order_amount) AS 销售额
+FROM fact_order
+JOIN dim_region ON fact_order.region_id = dim_region.region_id
+WHERE dim_region.region_name = '华北'
+2026-03-31 22:40:53.930 | INFO     | app.agent.nodes.validate_sql:validate_sql:14 - SQL验证成功
+2026-03-31 22:40:53.935 | INFO     | app.agent.nodes.run_sql:run_sql:13 - SQL运行结果：[{'销售额': 41099.5}]
+2026-03-31 22:42:08.630 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:28 - 抽取关键词：['销售额', '查华北地区销售额', '华北地区']
+2026-03-31 22:42:18.111 | INFO     | app.agent.nodes.recall_column:recall_column:28 - 扩充后的字段关键词：['销售额', '查华北地区销售额', '华北地区', '销售区域']
+2026-03-31 22:42:18.419 | INFO     | app.agent.nodes.recall_column:recall_column:37 - 搜索的字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_product.category']
+2026-03-31 22:42:18.497 | INFO     | app.agent.nodes.recall_metric:recall_metric:30 - 扩充后的指标关键词：['营收规模', '销售金额', '销售总额', '华北地区', '销售收入', 'GMV', '销售额', '交易额', '营业收入', '查华北地区销售额', '成交额']
+2026-03-31 22:42:18.877 | INFO     | app.agent.nodes.recall_metric:recall_metric:39 - 搜索到指标信息：['GMV', 'AOV']
+2026-03-31 22:42:20.321 | INFO     | app.agent.nodes.recall_value:recall_value:26 - 扩充后的字段取值关键词：['北京', '河北', '华北地区', '销售额', '内蒙古', '查华北地区销售额', '山西', '天津']
+2026-03-31 22:42:20.355 | INFO     | app.agent.nodes.recall_value:recall_value:33 - 搜索的字段取值信息：['dim_region.province.北京市', 'dim_region.region_name.华北']
+2026-03-31 23:13:50.352 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:29 - 抽取关键词：['华北地区的销售额', '销售额', '华北地区']
+2026-03-31 23:13:58.571 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 扩充后的指标关键词：['华北地区', '营收', '销售收入', '销售金额', '华北地区的销售额', '营业额', 'GMV', '销售额']
+2026-03-31 23:14:00.057 | INFO     | app.agent.nodes.recall_column:recall_column:29 - 扩充后的字段关键词：['销售区域', '销售额', '华北地区的销售额', '华北地区']
+2026-03-31 23:14:00.403 | INFO     | app.agent.nodes.recall_column:recall_column:38 - 搜索的字段信息：['dim_region.region_name', 'fact_order.order_amount', 'dim_product.category', 'fact_order.order_quantity']
+2026-03-31 23:14:00.603 | INFO     | app.agent.nodes.recall_metric:recall_metric:40 - 搜索到指标信息：['GMV', 'AOV']
+2026-03-31 23:14:00.771 | INFO     | app.agent.nodes.recall_value:recall_value:27 - 扩充后的字段取值关键词：['华北区域', '华北地区', '华北', '华北地区的销售额', '销售额']
+2026-03-31 23:14:00.887 | INFO     | app.agent.nodes.recall_value:recall_value:34 - 搜索的字段取值信息：['dim_region.region_name.华北']
+2026-03-31 23:14:01.154 | INFO     | app.agent.nodes.filter_metric:filter_metric:20 - 原始指标信息：['GMV', 'AOV']
+2026-03-31 23:14:01.157 | INFO     | app.agent.nodes.filter_table:filter_table:20 - 原始表信息：['dim_region', 'fact_order', 'dim_product']
+2026-03-31 23:14:07.560 | INFO     | app.agent.nodes.filter_metric:filter_metric:35 - 过滤后的指标信息：['GMV']
+2026-03-31 23:14:11.845 | INFO     | app.agent.nodes.filter_table:filter_table:39 - 过滤后的表信息：['dim_region', 'fact_order']
+2026-03-31 23:14:11.859 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:20 - 日期信息：{'date': '2026-03-31', 'weekday': 'Tuesday', 'quarter': 'Q1'}
+2026-03-31 23:14:11.861 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:21 - 数据库信息：{'dialect': 'mysql', 'version': '8.0.45'}
+2026-03-31 23:14:19.173 | INFO     | app.agent.nodes.generate_sql:generate_sql:33 - 生成的SQL：SELECT SUM(fact_order.order_amount) AS 销售额 FROM fact_order JOIN dim_region ON fact_order.region_id = dim_region.region_id WHERE dim_region.region_name = '华北'
+2026-03-31 23:14:19.188 | INFO     | app.agent.nodes.validate_sql:validate_sql:15 - SQL正确
+2026-03-31 23:14:19.194 | INFO     | app.agent.nodes.run_sql:run_sql:14 - SQL运行结果：[{'销售额': 41099.5}]
+2026-03-31 23:15:14.170 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:29 - 抽取关键词：['华北地区', '华北地区的销售额', '销售额']
+2026-03-31 23:15:25.233 | INFO     | app.agent.nodes.recall_value:recall_value:27 - 扩充后的字段取值关键词：['华北地区', '华北地区的销售额', '销售额']
+2026-03-31 23:15:25.266 | INFO     | app.agent.nodes.recall_value:recall_value:34 - 搜索的字段取值信息：['dim_region.region_name.华北']
+2026-03-31 23:15:27.055 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 扩充后的指标关键词：['华北地区', '销售额', 'GMV', '华北地区的销售额', '销售金额', '成交额', '交易额']
+2026-03-31 23:15:28.677 | INFO     | app.agent.nodes.recall_column:recall_column:29 - 扩充后的字段关键词：['华北地区', '华北地区的销售额', '销售额', '地区']
+2026-03-31 23:15:28.865 | INFO     | app.agent.nodes.recall_column:recall_column:38 - 搜索的字段信息：['dim_region.region_name', 'fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.province', 'dim_region.country']
+2026-03-31 23:15:28.960 | INFO     | app.agent.nodes.recall_metric:recall_metric:40 - 搜索到指标信息：['GMV', 'AOV']
+2026-03-31 23:15:28.994 | ERROR    | app.agent.nodes.filter_metric:filter_metric:40 - 过滤指标信息失败：division by zero
+2026-03-31 23:15:28.994 | INFO     | app.agent.nodes.filter_table:filter_table:20 - 原始表信息：['dim_region', 'fact_order']
+2026-03-31 23:21:17.528 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:29 - 抽取关键词：['华北地区', '统计华北地区的销售额', '销售额', '统计']
+2026-03-31 23:21:24.186 | INFO     | app.agent.nodes.recall_column:recall_column:29 - 扩充后的字段关键词：['统计华北地区的销售额', '销售额', '销售地区', '统计', '华北地区']
+2026-03-31 23:21:25.788 | INFO     | app.agent.nodes.recall_column:recall_column:38 - 搜索的字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_region.province']
+2026-03-31 23:21:26.321 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 扩充后的指标关键词：['统计华北地区的销售额', '成交额', '销售收入', '营业金额', '销售金额', 'GMV', '销售额', '统计', '华北地区', '交易额', '营收']
+2026-03-31 23:21:26.676 | INFO     | app.agent.nodes.recall_metric:recall_metric:40 - 搜索到指标信息：['GMV', 'AOV']
+2026-03-31 23:21:27.852 | INFO     | app.agent.nodes.recall_value:recall_value:27 - 扩充后的字段取值关键词：['华北地区', '统计华北地区的销售额', '销售额', '统计']
+2026-03-31 23:21:27.882 | INFO     | app.agent.nodes.recall_value:recall_value:34 - 搜索的字段取值信息：['dim_region.region_name.华北']
+2026-03-31 23:21:27.914 | INFO     | app.agent.nodes.filter_metric:filter_metric:21 - 原始指标信息：['GMV', 'AOV']
+2026-03-31 23:21:27.916 | INFO     | app.agent.nodes.filter_table:filter_table:20 - 原始表信息：['fact_order', 'dim_region']
+2026-03-31 23:21:32.805 | INFO     | app.agent.nodes.filter_metric:filter_metric:36 - 过滤后的指标信息：['GMV']
+2026-03-31 23:21:34.654 | INFO     | app.agent.nodes.filter_table:filter_table:39 - 过滤后的表信息：['fact_order', 'dim_region']
+2026-03-31 23:21:34.669 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:20 - 日期信息：{'date': '2026-03-31', 'weekday': 'Tuesday', 'quarter': 'Q1'}
+2026-03-31 23:21:34.669 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:21 - 数据库信息：{'dialect': 'mysql', 'version': '8.0.45'}
+2026-03-31 23:21:41.203 | INFO     | app.agent.nodes.generate_sql:generate_sql:33 - 生成的SQL：SELECT SUM(fo.order_amount) AS 销售额
+FROM fact_order fo
+INNER JOIN dim_region dr ON fo.region_id = dr.region_id
+WHERE dr.region_name = '华北'
+2026-03-31 23:21:41.214 | INFO     | app.agent.nodes.validate_sql:validate_sql:15 - SQL正确
+2026-03-31 23:21:41.222 | INFO     | app.agent.nodes.run_sql:run_sql:14 - SQL运行结果：[{'销售额': 41099.5}]
+2026-03-31 23:25:08.088 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:29 - 抽取关键词：['统计', '华北地区', '统计华北地区的销售额', '销售额']
+2026-03-31 23:25:14.190 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 扩充后的指标关键词：['统计华北地区的销售额', '华北地区', '销售收入', '营业额', '营收', '销售额', '统计', '销售金额']
+2026-03-31 23:25:15.712 | INFO     | app.agent.nodes.recall_column:recall_column:29 - 扩充后的字段关键词：['统计华北地区的销售额', '华北地区', '销售额', '统计', '销售地区']
+2026-03-31 23:25:15.907 | INFO     | app.agent.nodes.recall_column:recall_column:38 - 搜索的字段信息：['fact_order.order_amount', 'dim_region.region_name', 'fact_order.order_quantity', 'dim_region.province']
+2026-03-31 23:25:15.994 | INFO     | app.agent.nodes.recall_metric:recall_metric:40 - 搜索到指标信息：['GMV', 'AOV']
+2026-03-31 23:25:20.738 | INFO     | app.agent.nodes.recall_value:recall_value:27 - 扩充后的字段取值关键词：['统计华北地区的销售额', '华北地区', '华北', '销售额', '统计']
+2026-03-31 23:25:20.778 | INFO     | app.agent.nodes.recall_value:recall_value:34 - 搜索的字段取值信息：['dim_region.region_name.华北']
+2026-03-31 23:25:20.807 | INFO     | app.agent.nodes.filter_metric:filter_metric:21 - 原始指标信息：['GMV', 'AOV']
+2026-03-31 23:25:20.812 | INFO     | app.agent.nodes.filter_table:filter_table:20 - 原始表信息：['fact_order', 'dim_region']
+2026-03-31 23:25:28.003 | INFO     | app.agent.nodes.filter_metric:filter_metric:36 - 过滤后的指标信息：['GMV']
+2026-03-31 23:25:28.127 | INFO     | app.agent.nodes.filter_table:filter_table:39 - 过滤后的表信息：['fact_order', 'dim_region']
+2026-03-31 23:25:28.145 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:20 - 日期信息：{'date': '2026-03-31', 'weekday': 'Tuesday', 'quarter': 'Q1'}
+2026-03-31 23:25:28.145 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:21 - 数据库信息：{'dialect': 'mysql', 'version': '8.0.45'}
+2026-03-31 23:25:35.791 | INFO     | app.agent.nodes.generate_sql:generate_sql:33 - 生成的SQL：SELECT SUM(fact_order.order_amount) AS 销售额
+FROM fact_order
+JOIN dim_region ON fact_order.region_id = dim_region.region_id
+WHERE dim_region.region_name = '华北'
+2026-03-31 23:25:35.796 | INFO     | app.agent.nodes.validate_sql:validate_sql:15 - SQL正确
+2026-03-31 23:25:35.800 | INFO     | app.agent.nodes.run_sql:run_sql:14 - SQL运行结果：[{'销售额': 41099.5}]
+2026-03-31 23:26:27.819 | INFO     | app.agent.nodes.extract_keywords:extract_keywords:29 - 抽取关键词：['统计', '销售额', '统计华北地区的销售额', '华北地区']
+2026-03-31 23:26:35.290 | INFO     | app.agent.nodes.recall_metric:recall_metric:31 - 扩充后的指标关键词：['交易额', '商品交易总额', '销售金额', '华北地区', '总销售额', '统计', '销售额', '营收', '销售收入', '营业收入', '订单金额', '统计华北地区的销售额', 'GMV']
+2026-03-31 23:26:37.665 | INFO     | app.agent.nodes.recall_metric:recall_metric:40 - 搜索到指标信息：['GMV', 'AOV']
+2026-03-31 23:26:38.493 | INFO     | app.agent.nodes.recall_column:recall_column:29 - 扩充后的字段关键词：['地区', '华北地区', '统计', '销售额', '统计华北地区的销售额']
+2026-03-31 23:26:38.573 | INFO     | app.agent.nodes.recall_value:recall_value:27 - 扩充后的字段取值关键词：['华北地区', '统计', '销售额', '华北', '统计华北地区的销售额']
+2026-03-31 23:26:38.614 | INFO     | app.agent.nodes.recall_value:recall_value:34 - 搜索的字段取值信息：['dim_region.region_name.华北']
+2026-03-31 23:26:38.661 | INFO     | app.agent.nodes.recall_column:recall_column:38 - 搜索的字段信息：['dim_region.region_name', 'dim_region.province', 'dim_region.country', 'fact_order.order_quantity', 'fact_order.order_amount']
+2026-03-31 23:26:38.695 | INFO     | app.agent.nodes.filter_metric:filter_metric:21 - 原始指标信息：['GMV', 'AOV']
+2026-03-31 23:26:38.697 | INFO     | app.agent.nodes.filter_table:filter_table:20 - 原始表信息：['dim_region', 'fact_order']
+2026-03-31 23:26:44.970 | INFO     | app.agent.nodes.filter_metric:filter_metric:36 - 过滤后的指标信息：['GMV']
+2026-03-31 23:26:47.089 | INFO     | app.agent.nodes.filter_table:filter_table:39 - 过滤后的表信息：['dim_region', 'fact_order']
+2026-03-31 23:26:47.104 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:20 - 日期信息：{'date': '2026-03-31', 'weekday': 'Tuesday', 'quarter': 'Q1'}
+2026-03-31 23:26:47.105 | INFO     | app.agent.nodes.add_extra_context:add_extra_context:21 - 数据库信息：{'dialect': 'mysql', 'version': '8.0.45'}
+2026-03-31 23:26:56.057 | INFO     | app.agent.nodes.generate_sql:generate_sql:33 - 生成的SQL：SELECT SUM(fo.order_amount) AS 销售额 FROM fact_order fo LEFT JOIN dim_region dr ON fo.region_id = dr.region_id WHERE dr.region_name = '华北'
+2026-03-31 23:26:56.064 | INFO     | app.agent.nodes.validate_sql:validate_sql:15 - SQL正确
+2026-03-31 23:26:56.068 | INFO     | app.agent.nodes.run_sql:run_sql:14 - SQL运行结果：[{'销售额': 41099.5}]
+2026-04-01 10:33:21.517 | INFO     | request_id - 4d5b034c-413a-4262-bd9a-3b8cc191c9da | app.agent.nodes.extract_keywords:extract_keywords:29 - 抽取关键词：['销售额', '地区', '各地区销售额']
+2026-04-01 10:33:22.537 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.extract_keywords:extract_keywords:29 - 抽取关键词：['销售额', '地区', '各地区销售额']
+2026-04-01 10:33:30.546 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.recall_column:recall_column:29 - 扩充后的字段关键词：['销售额', '地区', '各地区销售额']
+2026-04-01 10:33:31.985 | INFO     | request_id - 4d5b034c-413a-4262-bd9a-3b8cc191c9da | app.agent.nodes.recall_metric:recall_metric:31 - 扩充后的指标关键词：['销售收入', 'GMV', '各地区销售额', '销售额', '营收', '地区', '成交额', '交易额']
+2026-04-01 10:33:32.275 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.recall_column:recall_column:38 - 搜索的字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_region.province', 'dim_region.country']
+2026-04-01 10:33:32.491 | INFO     | request_id - 4d5b034c-413a-4262-bd9a-3b8cc191c9da | app.agent.nodes.recall_metric:recall_metric:40 - 搜索到指标信息：['GMV', 'AOV']
+2026-04-01 10:33:33.916 | ERROR    | request_id - 4d5b034c-413a-4262-bd9a-3b8cc191c9da | app.agent.nodes.recall_value:recall_value:38 - 召回字段取值失败：Invalid json output: [“华东”,“华北”,“华南”,“东北”,“西南”,“西北”,“本月”,“上月”,“本季度”,“本年”]
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langchain/errors/OUTPUT_PARSING_FAILURE 
+2026-04-01 10:33:40.513 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.recall_value:recall_value:27 - 扩充后的字段取值关键词：['华北', '东北', '各地区销售额', '销售额', '华南', '华东', '地区', '华中', '西北', '西南']
+2026-04-01 10:33:40.623 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.recall_value:recall_value:34 - 搜索的字段取值信息：['dim_region.region_name.华北', 'dim_region.region_name.华南', 'dim_region.region_name.华东', 'dim_region.region_name.华中', 'dim_region.region_name.西南']
+2026-04-01 10:33:50.733 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.recall_metric:recall_metric:31 - 扩充后的指标关键词：['销售金额', '销售收入', '各地区销售额', '销售业绩', '销售额', '地区', '交易额', '销售总额', '营业销售额']
+2026-04-01 10:33:51.304 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.recall_metric:recall_metric:40 - 搜索到指标信息：['GMV', 'AOV']
+2026-04-01 10:33:51.542 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.filter_metric:filter_metric:21 - 原始指标信息：['GMV', 'AOV']
+2026-04-01 10:33:51.544 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.filter_table:filter_table:20 - 原始表信息：['fact_order', 'dim_region']
+2026-04-01 10:33:56.207 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.filter_table:filter_table:39 - 过滤后的表信息：['fact_order', 'dim_region']
+2026-04-01 10:33:58.537 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.filter_metric:filter_metric:36 - 过滤后的指标信息：['GMV']
+2026-04-01 10:33:58.560 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.add_extra_context:add_extra_context:20 - 日期信息：{'date': '2026-04-01', 'weekday': 'Wednesday', 'quarter': 'Q2'}
+2026-04-01 10:33:58.560 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.add_extra_context:add_extra_context:21 - 数据库信息：{'dialect': 'mysql', 'version': '8.0.45'}
+2026-04-01 10:34:06.596 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.generate_sql:generate_sql:33 - 生成的SQL：SELECT 
+    dim_region.region_name AS 地区,
+    SUM(fact_order.order_amount) AS 销售额
+FROM fact_order
+INNER JOIN dim_region ON fact_order.region_id = dim_region.region_id
+GROUP BY dim_region.region_name
+ORDER BY 销售额 DESC
+2026-04-01 10:34:06.613 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.validate_sql:validate_sql:15 - SQL正确
+2026-04-01 10:34:06.621 | INFO     | request_id - 05bb6571-236d-4a43-9ec6-55151511b8b3 | app.agent.nodes.run_sql:run_sql:14 - SQL运行结果：[{'地区': '华东', '销售额': 107373.0}, {'地区': '华南', '销售额': 70202.0}, {'地区': '华北', '销售额': 41099.5}, {'地区': '西南', '销售额': 31528.0}, {'地区': '华中', '销售额': 28957.0}]
+2026-04-01 10:34:12.385 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.extract_keywords:extract_keywords:29 - 抽取关键词：['销售额', '地区', '各地区销售额']
+2026-04-01 10:34:19.376 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.recall_column:recall_column:29 - 扩充后的字段关键词：['销售额', '地区', '各地区销售额']
+2026-04-01 10:34:19.779 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.recall_column:recall_column:38 - 搜索的字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_region.province', 'dim_region.country']
+2026-04-01 10:34:19.895 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.recall_metric:recall_metric:31 - 扩充后的指标关键词：['销售金额', '销售收入', 'GMV', '各地区销售额', '销售额', '地区', '营收额', '成交额', '交易额']
+2026-04-01 10:34:20.184 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.recall_metric:recall_metric:40 - 搜索到指标信息：['GMV', 'AOV']
+2026-04-01 10:34:29.316 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.recall_value:recall_value:27 - 扩充后的字段取值关键词：['华北', '东北', '各地区销售额', '销售额', '华南', '华东', '地区', '华中', '西北', '西南']
+2026-04-01 10:34:29.376 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.recall_value:recall_value:34 - 搜索的字段取值信息：['dim_region.region_name.华北', 'dim_region.region_name.华南', 'dim_region.region_name.华东', 'dim_region.region_name.华中', 'dim_region.region_name.西南']
+2026-04-01 10:34:29.392 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.filter_metric:filter_metric:21 - 原始指标信息：['GMV', 'AOV']
+2026-04-01 10:34:29.395 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.filter_table:filter_table:20 - 原始表信息：['fact_order', 'dim_region']
+2026-04-01 10:34:36.378 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.filter_table:filter_table:39 - 过滤后的表信息：['fact_order', 'dim_region']
+2026-04-01 10:34:37.043 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.filter_metric:filter_metric:36 - 过滤后的指标信息：['GMV']
+2026-04-01 10:34:37.049 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.add_extra_context:add_extra_context:20 - 日期信息：{'date': '2026-04-01', 'weekday': 'Wednesday', 'quarter': 'Q2'}
+2026-04-01 10:34:37.050 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.add_extra_context:add_extra_context:21 - 数据库信息：{'dialect': 'mysql', 'version': '8.0.45'}
+2026-04-01 10:34:42.985 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.generate_sql:generate_sql:33 - 生成的SQL：SELECT dim_region.region_name AS 地区, SUM(fact_order.order_amount) AS 销售额 FROM dim_region LEFT JOIN fact_order ON dim_region.region_id = fact_order.region_id GROUP BY dim_region.region_name
+2026-04-01 10:34:42.994 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.validate_sql:validate_sql:15 - SQL正确
+2026-04-01 10:34:43.001 | INFO     | request_id - 8b0ceb0b-87aa-4ffa-ac72-ef98b89de9b4 | app.agent.nodes.run_sql:run_sql:14 - SQL运行结果：[{'地区': '华南', '销售额': 70202.0}, {'地区': '华东', '销售额': 107373.0}, {'地区': '西南', '销售额': 31528.0}, {'地区': '华北', '销售额': 41099.5}, {'地区': '华中', '销售额': 28957.0}]
+2026-04-01 10:35:17.189 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.extract_keywords:extract_keywords:29 - 抽取关键词：['销售额', '地区', '各地区销售额']
+2026-04-01 10:35:20.028 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.extract_keywords:extract_keywords:29 - 抽取关键词：['销售额', '地区', '各地区销售额']
+2026-04-01 10:35:27.966 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.recall_column:recall_column:29 - 扩充后的字段关键词：['销售额', '地区', '各地区销售额']
+2026-04-01 10:35:28.280 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.recall_column:recall_column:38 - 搜索的字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_region.province', 'dim_region.country']
+2026-04-01 10:35:28.743 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.recall_value:recall_value:27 - 扩充后的字段取值关键词：['销售额', '地区', '各地区销售额']
+2026-04-01 10:35:28.770 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.recall_value:recall_value:34 - 搜索的字段取值信息：[]
+2026-04-01 10:35:29.088 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.recall_metric:recall_metric:31 - 扩充后的指标关键词：['销售金额', '收入金额', 'GMV', '各地区销售额', '销售业绩', '销售额', '营收', '地区', '交易额', '销售总额', '营业收入']
+2026-04-01 10:35:29.467 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.recall_metric:recall_metric:40 - 搜索到指标信息：['GMV', 'AOV']
+2026-04-01 10:35:29.475 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.filter_metric:filter_metric:21 - 原始指标信息：['GMV', 'AOV']
+2026-04-01 10:35:29.476 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.filter_table:filter_table:20 - 原始表信息：['fact_order', 'dim_region']
+2026-04-01 10:35:30.289 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.recall_metric:recall_metric:31 - 扩充后的指标关键词：['销售金额', 'GMV', '各地区销售额', '销售额', '地区', '交易额', '营业收入']
+2026-04-01 10:35:30.537 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.recall_metric:recall_metric:40 - 搜索到指标信息：['GMV', 'AOV']
+2026-04-01 10:35:33.130 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.recall_column:recall_column:29 - 扩充后的字段关键词：['销售额', '地区', '各地区销售额']
+2026-04-01 10:35:33.478 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.recall_column:recall_column:38 - 搜索的字段信息：['fact_order.order_amount', 'fact_order.order_quantity', 'dim_region.region_name', 'dim_region.province', 'dim_region.country']
+2026-04-01 10:35:36.012 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.recall_value:recall_value:27 - 扩充后的字段取值关键词：['销售额', '地区', '各地区销售额']
+2026-04-01 10:35:36.024 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.recall_value:recall_value:34 - 搜索的字段取值信息：[]
+2026-04-01 10:35:36.048 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.filter_metric:filter_metric:21 - 原始指标信息：['GMV', 'AOV']
+2026-04-01 10:35:36.049 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.filter_table:filter_table:20 - 原始表信息：['fact_order', 'dim_region']
+2026-04-01 10:35:37.810 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.filter_table:filter_table:39 - 过滤后的表信息：['fact_order', 'dim_region']
+2026-04-01 10:35:40.063 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.filter_metric:filter_metric:36 - 过滤后的指标信息：['GMV']
+2026-04-01 10:35:40.067 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.add_extra_context:add_extra_context:20 - 日期信息：{'date': '2026-04-01', 'weekday': 'Wednesday', 'quarter': 'Q2'}
+2026-04-01 10:35:40.067 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.add_extra_context:add_extra_context:21 - 数据库信息：{'dialect': 'mysql', 'version': '8.0.45'}
+2026-04-01 10:35:40.671 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.filter_table:filter_table:39 - 过滤后的表信息：['fact_order', 'dim_region']
+2026-04-01 10:35:45.590 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.filter_metric:filter_metric:36 - 过滤后的指标信息：['GMV']
+2026-04-01 10:35:45.603 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.add_extra_context:add_extra_context:20 - 日期信息：{'date': '2026-04-01', 'weekday': 'Wednesday', 'quarter': 'Q2'}
+2026-04-01 10:35:45.603 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.add_extra_context:add_extra_context:21 - 数据库信息：{'dialect': 'mysql', 'version': '8.0.45'}
+2026-04-01 10:35:50.742 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.generate_sql:generate_sql:33 - 生成的SQL：SELECT dim_region.region_name, SUM(fact_order.order_amount) AS 销售额 FROM fact_order JOIN dim_region ON fact_order.region_id = dim_region.region_id GROUP BY dim_region.region_name
+2026-04-01 10:35:50.748 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.validate_sql:validate_sql:15 - SQL正确
+2026-04-01 10:35:50.756 | INFO     | request_id - 10b2a23b-501a-4241-be8c-85ef3af50b5c | app.agent.nodes.run_sql:run_sql:14 - SQL运行结果：[{'region_name': '华南', '销售额': 70202.0}, {'region_name': '华东', '销售额': 107373.0}, {'region_name': '华北', '销售额': 41099.5}, {'region_name': '西南', '销售额': 31528.0}, {'region_name': '华中', '销售额': 28957.0}]
+2026-04-01 10:35:57.259 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.generate_sql:generate_sql:33 - 生成的SQL：SELECT r.region_name AS 地区, SUM(f.order_amount) AS 销售额 FROM dim_region r LEFT JOIN fact_order f ON r.region_id = f.region_id GROUP BY r.region_name, r.region_id ORDER BY r.region_id
+2026-04-01 10:35:57.265 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.validate_sql:validate_sql:15 - SQL正确
+2026-04-01 10:35:57.269 | INFO     | request_id - b8bf959c-09b5-411b-90ef-a7af84963f8d | app.agent.nodes.run_sql:run_sql:14 - SQL运行结果：[{'地区': '华南', '销售额': 70202.0}, {'地区': '华东', '销售额': 47163.0}, {'地区': '西南', '销售额': 31528.0}, {'地区': '华北', '销售额': 41099.5}, {'地区': '华东', '销售额': 60210.0}, {'地区': '华中', '销售额': 28957.0}]
+2026-04-01 10:36:06.606 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.extract_keywords:extract_keywords:29 - 抽取关键词：['你是谁']
+2026-04-01 10:36:10.013 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.recall_metric:recall_metric:31 - 扩充后的指标关键词：['你是谁']
+2026-04-01 10:36:10.055 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.recall_metric:recall_metric:40 - 搜索到指标信息：[]
+2026-04-01 10:36:14.467 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.recall_column:recall_column:29 - 扩充后的字段关键词：['你是谁']
+2026-04-01 10:36:14.500 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.recall_column:recall_column:38 - 搜索的字段信息：[]
+2026-04-01 10:36:23.087 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.recall_value:recall_value:27 - 扩充后的字段取值关键词：['你是谁']
+2026-04-01 10:36:23.100 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.recall_value:recall_value:34 - 搜索的字段取值信息：[]
+2026-04-01 10:36:23.104 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.filter_metric:filter_metric:21 - 原始指标信息：[]
+2026-04-01 10:36:23.106 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.filter_table:filter_table:20 - 原始表信息：[]
+2026-04-01 10:36:30.409 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.filter_table:filter_table:39 - 过滤后的表信息：[]
+2026-04-01 10:36:30.412 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.add_extra_context:add_extra_context:20 - 日期信息：{'date': '2026-04-01', 'weekday': 'Wednesday', 'quarter': 'Q2'}
+2026-04-01 10:36:30.413 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.add_extra_context:add_extra_context:21 - 数据库信息：{'dialect': 'mysql', 'version': '8.0.45'}
+2026-04-01 10:36:38.382 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.generate_sql:generate_sql:33 - 生成的SQL：我是MiniMax-M2.7，一个AI助手，由MiniMax公司开发。我可以帮助您将自然语言查询转换为SQL语句，前提是您提供具体的数据库表结构、字段信息和业务需求。
+
+请告诉我您需要查询的数据需求，我可以帮您生成相应的SQL语句。
+2026-04-01 10:36:38.387 | ERROR    | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.validate_sql:validate_sql:19 - sql错误：(asyncmy.errors.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-M2.7，一个AI助手，由MiniMax公司开发。我可以帮助您将自然语' at line 1")
+[SQL: EXPLAIN 我是MiniMax-M2.7，一个AI助手，由MiniMax公司开发。我可以帮助您将自然语言查询转换为SQL语句，前提是您提供具体的数据库表结构、字段信息和业务需求。
+
+请告诉我您需要查询的数据需求，我可以帮您生成相应的SQL语句。]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-04-01 10:36:58.537 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.correct_sql:correct_sql:37 - 修正后的SQL：我是MiniMax-M2.7，一个AI助手，由MiniMax公司开发。我可以帮助您将自然语言查询转换为SQL语句，前提是您提供具体的数据库表结构、字段信息和业务需求。
+
+请告诉我您需要查询的数据需求，我可以帮您生成相应的SQL语句。
+2026-04-01 10:36:58.540 | INFO     | request_id - 8831a44a-f5da-4bdc-8e93-8860d33134c2 | app.agent.nodes.run_sql:run_sql:14 - SQL运行结果：[{'1': 1}]
+2026-04-01 10:38:12.667 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.extract_keywords:extract_keywords:29 - 抽取关键词：['Instant', 'Pot', '名叫', '品牌', '产品', '删除', '删除品牌名叫Instant Pot的产品']
+2026-04-01 10:38:24.542 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.recall_value:recall_value:27 - 扩充后的字段取值关键词：['Instant', 'Pot', '名叫', '品牌', '产品', '删除', 'Instant Pot', '删除品牌名叫Instant Pot的产品']
+2026-04-01 10:38:24.588 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.recall_value:recall_value:34 - 搜索的字段取值信息：['dim_product.brand.Instant Pot', 'dim_product.product_name.Instant Pot 多功能电压力锅']
+2026-04-01 10:38:25.325 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.recall_column:recall_column:29 - 扩充后的字段关键词：['Instant', 'Pot', '名叫', '品牌', '产品', '删除', '产品名称', '品牌名称', '删除品牌名叫Instant Pot的产品']
+2026-04-01 10:38:25.888 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.recall_column:recall_column:38 - 搜索的字段信息：['dim_product.brand', 'dim_customer.customer_name', 'dim_product.product_name', 'dim_product.category', 'dim_product.product_id', 'fact_order.product_id']
+2026-04-01 10:38:31.902 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.recall_metric:recall_metric:31 - 扩充后的指标关键词：['Instant', 'Pot', '名叫', '品牌', '产品', '删除', '删除产品数量', '产品删除记录', '删除商品数', '删除操作数量', '商品删除统计', '删除品牌名叫Instant Pot的产品']
+2026-04-01 10:38:32.563 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.recall_metric:recall_metric:40 - 搜索到指标信息：[]
+2026-04-01 10:38:32.573 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.filter_metric:filter_metric:21 - 原始指标信息：[]
+2026-04-01 10:38:32.575 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.filter_table:filter_table:20 - 原始表信息：['dim_product', 'dim_customer', 'fact_order']
+2026-04-01 10:38:47.778 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.filter_table:filter_table:39 - 过滤后的表信息：['dim_product']
+2026-04-01 10:38:47.780 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.add_extra_context:add_extra_context:20 - 日期信息：{'date': '2026-04-01', 'weekday': 'Wednesday', 'quarter': 'Q2'}
+2026-04-01 10:38:47.782 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.add_extra_context:add_extra_context:21 - 数据库信息：{'dialect': 'mysql', 'version': '8.0.45'}
+2026-04-01 10:39:00.846 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.generate_sql:generate_sql:33 - 生成的SQL：根据任务要求第3条"生成的SQL只能用于查询，不能涉及数据写入、更新、删除等操作"，我无法生成DELETE语句。
+
+但是我可以为您提供一条查询语句，用于查看品牌名为"Instant Pot"的产品信息：
+
+SELECT * FROM dim_product WHERE brand = 'Instant Pot';
+2026-04-01 10:39:00.849 | ERROR    | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.validate_sql:validate_sql:19 - sql错误：(asyncmy.errors.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '，我无法生成DELETE语句。\n\n但是我可以为您提供一条查询语句' at line 1")
+[SQL: EXPLAIN 根据任务要求第3条"生成的SQL只能用于查询，不能涉及数据写入、更新、删除等操作"，我无法生成DELETE语句。
+
+但是我可以为您提供一条查询语句，用于查看品牌名为"Instant Pot"的产品信息：
+
+SELECT * FROM dim_product WHERE brand = 'Instant Pot';]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-04-01 10:39:19.317 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.correct_sql:correct_sql:37 - 修正后的SQL：根据任务要求第3条"生成的SQL只能用于查询，不能涉及数据写入、更新、删除等操作"，我无法生成DELETE语句。
+
+但是我可以为您提供一条查询语句，用于查看品牌名为"Instant Pot"的产品信息：
+
+SELECT * FROM dim_product WHERE brand = 'Instant Pot';
+2026-04-01 10:39:19.322 | INFO     | request_id - b028649d-cf45-4868-97d2-7006d7e787d6 | app.agent.nodes.run_sql:run_sql:14 - SQL运行结果：[{'product_id': 'P015', 'product_name': 'Instant Pot 多功能电压力锅', 'category': '家用电器', 'brand': 'Instant Pot'}]
